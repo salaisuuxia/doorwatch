@@ -24,4 +24,6 @@ configure 'homelog/submit.php' to have that MySQL username and password
 
 upload the 'homelog' directory into the webserver's root
 
+add the ssh public key of the linux box to the authorized keys file on the mac
+
 run doorwatch.py
