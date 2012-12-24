@@ -12,6 +12,9 @@ a server with mysql, http with php (for logging)
 
 this script is designed to be run on a linux box, but triggers commands over SSH to a mac.
 
+note: in systems such as archlinux, in 'doorwatch.py' you will have to change the '#!/usr/bin/python' to '#!/usr/bin/python2'
+as the default python package is python3 rather than python2.
+
 to use:
 
 upload 'doorwatch.ino' to your arduino
